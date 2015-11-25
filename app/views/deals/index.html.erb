@@ -1,13 +1,22 @@
-<hr />
-<div class="booyah-box col-xs-6 col-xs-offset-1">
-	<%= @deals.each do |deal| %>
-		<div>
-			<h1><%= deal.sale %></h1><br/>
-			<i><%= deal.address %></i><br />
-			<p><%= deal.description %></p><br />
-		</div>	
-		<hr />
-	<% end %>
-</div>
+<br />
+<br class="clear" />
 
- 
+	<div class="container">
+		<div class="booyah-box col-xs-12 text-center">
+		    <%= link_to 'Dealio me', new_deal_path(@deal), :class => 'btn-lg btn-primary' %></div>
+	</div>
+
+
+
+	<%= @deals.each do |deal| %>
+		<div class="booyah-box col-xs-10">		
+				
+					<h1><%= deal.sale %></h1><br/>
+					<i><%= deal.address %></i><br />
+					<p><%= deal.description %></p><br />
+					
+				
+		</div>
+	<% end %>
+
+<br class="clear" />
