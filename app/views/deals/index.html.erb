@@ -3,13 +3,13 @@
 
 	<div class="container">
 		<div class="booyah-box col-xs-12 text-center">
-		    <%= link_to 'Dealio me', new_deal_path(@deal), :class => 'btn-lg btn-primary' %></div>
+		    <%= link_to 'DEAL ME', new_deal_path(@deal), :class => 'btn-xl btn-warning' %></div>
 	</div>
 
 
 
-	<%= @deals.each do |deal| %>
-		<div class="booyah-box col-xs-10">		
+	<% @deals.each do |deal| %>
+		<div class="booyah-box col-xs-12">		
 				
 					<h1><%= deal.sale %></h1><br/>
 					<i><%= deal.address %></i><br />

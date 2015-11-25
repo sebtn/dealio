@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Frijole);
+@import url(https://fonts.googleapis.com/css?family=Delius+Unicase:400,700);
+
 .box-one {
 	box-shadow: rgba(0,0,0,0.55) 2px 2px;
     background-color: rgba(50,50,50,0.25);	
@@ -17,19 +20,46 @@
 	  margin-top:10px;
 	  margin-bottom:15px;
 	  padding:20px;
+	  font-family: 'Delius Unicase', cursive;	
 
 }
 
 .jumbotron {
-	
-	
+		font-family: 'Delius Unicase', sans-serif;	
+		border-radius: 0;
+	  	box-shadow: 1px 1px 2px #E3E85A;
+	  	margin-top:10px;
+		margin-bottom:15px;
+		adding:20px;
+	 
+
 }
 
-
-  
 
 h1, h2, h3, h4, h5, h6 {
   margin:0;
   padding:0;
 }
   
+
+.navbar-inverse .navbar-brand {
+
+  color: #E3E85A;
+  font-family: 'Frijole', cursive;
+  font-size: 55px;
+  
+}  
+
+.btn-xl {  
+    padding: 15px 22px;
+    font-size: 29px;
+    line-height: 1.33;
+    border-radius: 6px
+
+}
+
+.navbar.navbar-inverse {
+  background: url('/assets/07t2mb2.gif');
+  border-radius: 0;
+  box-shadow: 1px 2px 7px #E3E85A;
+}
