@@ -1,0 +1,13 @@
+<%= simple_form_for @deal do |f| %>
+	<div class="box-one col-xs-10 col-xs-offset-1">
+	  <h1>What's da Dealio?</h1>
+		
+		
+			    <%= f.input :sale %>
+			    <%= f.input :address %>
+			    <%= f.input :description %>
+			
+	    <br />
+	    <%= f.submit 'Create', :class => 'btn btn-access' %>
+		</div>
+  <% end %>
