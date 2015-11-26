@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Delius+Unicase:400,700);
 
 .box-one {
-	box-shadow: rgba(0,0,0,0.55) 2px 2px;
+	box-shadow: rgba(0,0,0,0.45) 2px 2px;
     background-color: rgba(50,50,50,0.25);	
     margin-top:10px;
 	margin-bottom:15px;
@@ -15,8 +15,8 @@
 	  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
 	  box-shadow: 1px 1px 2px 0 #d0d0d0;
 	  background: #fff;
-	  border: 1px solid #ccc;
-	  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+	  border: 3px solid #ccc;
+	  border-color: #e4e4e4 #bebebd #bebebd #E3E85A;
 	  margin-top:10px;
 	  margin-bottom:15px;
 	  padding:20px;
@@ -61,9 +61,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-xl {  
     padding: 15px 22px;
-    font-size: 29px;
+    font-size: 35px;
     line-height: 1.33;
-    border-radius: 6px
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px #E3E85A;
 
 
 }
