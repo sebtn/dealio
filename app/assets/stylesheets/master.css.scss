@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Frijole);
 @import url(https://fonts.googleapis.com/css?family=Delius+Unicase:400,700);
-
+@import url(https://fonts.googleapis.com/css?family=Rammetto+One);
 .box-one {
 	box-shadow: rgba(0,0,0,0.45) 2px 2px;
-    background-color: rgba(50,50,50,0.25);	
+    background-color: rgba(100,10,0,0.25);	
     margin-top:10px;
 	margin-bottom:15px;
 	padding:20px;	
@@ -16,24 +16,25 @@
 	  box-shadow: 1px 1px 2px 0 #d0d0d0;
 	  background: #fff;
 	  border: 3px solid #ccc;
-	  border-color: #e4e4e4 #bebebd #bebebd #E3E85A;
+	  border-color: #e4e4e4 #bebebd #bebebd #c9302c;
 	  margin-top:10px;
 	  margin-bottom:15px;
 	  padding:20px;
-	  font-family: 'Delius Unicase', cursive;	
+	  font-family: 'Rammetto One', cursive;;	
 
 }
 
 .jumbotron {
-			
+		color: #FFFF4F;
 		border-radius: 0;
-	  	box-shadow: 1px 1px 2px #E3E85A;
+	  	box-shadow: 1px 1px 2px #c9302c;
 	  	margin-top:10px;
 		margin-bottom:15px;
 		adding:20px;
-	 
+	 	background: url('/assets/Parc-1.jpg');
 
 }
+
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
  h1 {
  	font-family: 'Frijole', cursive;
- 	font-size: 40px;
+ 	font-size: 30px;
  }	
 
  h2 {
@@ -53,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-inverse .navbar-brand {
 
-  color: #E3E85A;
+  color: #c9302c;
   font-family: 'Frijole', cursive;
   font-size: 55px;
   
@@ -62,9 +63,10 @@ h1, h2, h3, h4, h5, h6 {
 .btn-xl {  
     padding: 15px 22px;
     font-size: 35px;
+    font-wieght: bold;
     line-height: 1.33;
     border-radius: 6px;
-    box-shadow: 1px 1px 3px #E3E85A;
+    box-shadow: 1px 1px 3px #c9302c;
 
 
 }
@@ -72,5 +74,5 @@ h1, h2, h3, h4, h5, h6 {
 .navbar.navbar-inverse {
   background: url('/assets/07t2mb2.gif');
   border-radius: 0;
-  box-shadow: 1px 2px 7px #E3E85A;
+  box-shadow: 1px 2px 7px #c9302c;
 }
